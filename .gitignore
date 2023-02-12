@@ -1,3 +1,8 @@
 original_patients
 correct_patients
 PhD_Pictures
+test.ipynb
+meta*
+display*
+*.zip
+__pycache__

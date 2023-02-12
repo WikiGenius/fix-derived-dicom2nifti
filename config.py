@@ -1,6 +1,8 @@
 # Global Paths
 original_patients = "original_patients"
 correct_patients = "correct_patients"
+path_out_data_nifti = "PhD_Pictures"
+
 K_GUASSIAN = (3, 3)
 
 # Initial ImagePositionPatient

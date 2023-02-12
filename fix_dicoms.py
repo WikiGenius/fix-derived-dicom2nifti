@@ -71,7 +71,6 @@ for patient in os.listdir(config.original_patients):
 
             # save pixel data and dicom file
             ds.PixelData = img.tobytes()
-
         ds.save_as(os.path.join(correct_patient_path,
                    dicom_file.split('/')[-1]))
         pos[2] += 1.5
